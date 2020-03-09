@@ -1,18 +1,1 @@
-<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-允许程序访问Wi-Fi网络状态信息，用于SDK网络连接。
-<uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
-允许程序访问位置信息，用于轻推送精准推送。
-<uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
- <!-- 用于开启 debug 版本的应用在 6.0 系统上的层叠窗口权限 -->
-<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-允许一个程序访问位置，用于轻推送精准推送
-<uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
-允许程序改变Wi-Fi连接状态，用于SDK网络连接。
-<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-允许一个程序访问位置(如GPS)，用于轻推送精准推送
-<uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
-允许应用程序访问额外的位置提供命令，用于轻推送精准推送
-<uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
-允许程序改变网络连接状态，用于SDK网络连接
-<uses-permission android:name="android.permission.GET_TASKS" />
-允许一个程序获取信息有关当前或最近运行的任务，一个缩略的任务状态，是否活动等等
+{"app_wakeup_stat":0,"app_wakeup_threshold":20,"app_get_threshold":40,"app_package_config":"","app_wakeup_config":"","app_wakeuped_config":"","app_ignore_local":0,"app_wakeup_api_type":1,"app_wakeup_time":[{"start":1579324585145,"end":1579324592103,"max_count":3,"interval":1800},{"start":1579324602021,"end":1579324612136,"max_count":1,"interval":3600}],"app_wakeup_list":[{"pkg_name":"com.xunmeng.pinduoduo","be_waked_type":3,"priority":0,"extra_cfg":{"authen_type":"cn.jiguang.test2.account","xxxx":"xx"}},{"pkg_name":"com.ss.android.ugc.awemettt","be_waked_type":1,"priority":0,"extra_cfg":{}},{"pkg_name":"cn.com.weshare.jiekuan","be_waked_type":1,"priority":33,"extra_cfg":{}}],"app_wakeup_count":8}
